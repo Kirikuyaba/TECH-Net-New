@@ -1,0 +1,283 @@
+ html{
+      scroll-behavior:smooth;
+ }
+ 
+ 
+  body{
+  font-family: 'Raleway', sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#d8d8d8;
+  
+   
+}
+
+
+
+
+
+
+   header{
+
+   background:#35424a;
+
+   position: fixed;
+
+   top: 0;
+
+   left: 0;
+
+  width: 100%;
+ 
+   height:10%;
+  
+   z-index: 100000px;
+
+   box-shadow: 0px 0px 7px 0px #54545c;
+   
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    color:#dcdcdc;
+}
+
+.nav_links{
+  margin-left:142px;
+   float:left;
+    margin-top:-18px;
+}
+
+
+
+.a{
+    color:#d3d3d3;
+    text-decoration:none;
+    font-size:15px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.a:hover{
+     background:#dcdcdc;
+     color:#0a0a0a;
+         box-shadow:0px 0px 30px 1px #ffffff;
+         transition:all .5s;
+         transform-origin:left;
+         padding:3px;
+     }
+#text_article{
+    font-size:30px;
+font-weight:200;
+color:#1a1a1a;
+text-align:center;
+}
+
+
+#big{font-size:40px;
+font-weight:200;
+color:#1a1a1a;
+text-align:center;
+}
+
+
+
+
+#creador{font-size:18px;
+color:#7a7a7ae9;
+text-align:center;
+bottom:60%;
+}
+#p{font-size:18px;
+color:##8a8a8a;
+text-align:center;
+font-weight:300;
+}
+
+#artículos{
+   background: linear-gradient(to bottom,#d3d3d3, #e3e3e3);
+    color:#d4d4d4;
+    width:86%;
+    padding:5px;
+    word-wrap:break-word;
+    text-align:center;
+    border-radius:3px;
+       box-shadow: 0px 0px 7px 0px #54545c;
+    place-items:center;
+    margin:auto;
+       box-shadow:0px 0px 13px 1px #1a1a1a;
+}
+
+
+.container{
+border:none;
+border-radius:4px;
+   box-shadow: 0px 3px 10px 2px #535353;
+margin:auto;
+width:89%;
+height:30%;
+}
+
+#spinner {
+	width: 30px;
+	height: 30px;
+	border: solid 4px;
+	border-right-color: transparent;
+	border-radius: 50%;
+	animation: Spin 1s linear infinite;
+ 
+  position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index:10000;
+}
+
+  #contenedor_carga{
+    background-color: #ffffffbf;
+height:100%;
+width:100%;
+position:fixed;
+-webkit-transition:all 1s ease;
+-o-transition:all 1s ease;
+transition:all 1s ease;
+z-index:90000px;
+margin-top:0px;}
+ 
+  #header{
+  color:#dedede;
+  font-size:40px;
+  font-weight:300px;
+  margin:auto;
+  margin-left:-200px;
+  margin-top:10px;
+ 
+ }
+
+#nota{
+       background-image:url("fondogris.jpg");
+    color:#e5e5e5;
+    box-shadow: 0px 0px 7px 0px #54545c;
+    border-radius:3px;
+    place-items:center;
+    margin:auto;
+    width:70%;
+     word-wrap: break-word;
+     padding:10px;
+    text-align: center;
+      }
+      
+      
+#nota:hover{
+   background: transparent;
+     transition:all .5s;
+         transform-origin:left;
+         color:#161616;
+            box-shadow:0px 0px 30px 1px #1d1d1d;
+         }
+
+img{
+    width:90%;
+    height:29%;
+    object-fit: cover;
+    grid-area: img;
+    box-shadow: 0px 0px 7px 0px #54545c;
+}
+
+#iconos{
+    width:90px;
+    height:88px;
+    margin:auto;
+    border-radius:50%;
+}
+
+#boxes{
+    background-image:url("fondogris.jpg");
+    color:#d4d4d4;
+    width:86%;
+    padding:5px;
+    word-wrap:break-word;
+    text-align:center;
+    border-radius:3px;
+    border:solid 1px #131726;
+    place-items:center;
+    margin:auto;
+    }
+   
+    #juegos{
+        text-decoration:none;
+        text-align:center;
+        background: #35424a;
+        border-radius:30px;
+        color:#d9d9d9;
+        font-size:28px;
+        margin:0 auto;
+        place-items:center;
+        padding:10px;
+        margin-left:26%;
+         border:3px solid #35424a;
+        box-shadow: 0px 0px 7px 0px #54545c;
+}
+
+#juegos:hover{
+  
+    border:3px solid #35424a;
+    color:#35424a;
+    background: transparent;
+       transition:all .5s;
+         transform-origin:bottom;
+}
+
+
+#after::after{
+   content:"Bienvenid@ a Tech";
+   grid-area:img;
+   width:90%;
+   height:29%;
+   background-color:#1e243c80 ;
+   color:#ffffff;
+
+   place-items:center;
+   font-size:30px;
+   text-align:center;
+   font-weight:bold;
+   clip-path:circle(0 at top);
+   transition: clip-path .4s;
+      display:grid;
+     margin-top:-187px;
+     z-index:1;
+}
+
+#after:hover::after{
+    clip-path:circle(150% at top );
+    z-index:1;
+}
+
+
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#35424a;
+  text-align: center;
+}
+
+
+
+@keyframes Spin {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg);
+	}
+
+
+
+
